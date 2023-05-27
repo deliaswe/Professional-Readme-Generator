@@ -7,7 +7,9 @@ const questions = [];
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    console.log("welcome to readme generator")
+}
 
 // Function call to initialize app
 init();
