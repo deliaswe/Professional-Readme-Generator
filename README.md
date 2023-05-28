@@ -1,12 +1,12 @@
 # Professional-Readme-Generator
 
 ## Table of Contents
-- Installation
-- Usage
-- License
-- Contribution
-- Test
-- Questions
+* [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribution](#contribution)
+- [Test](#test)
+- [Questions](#questions)
 
 ## Description
 
@@ -27,7 +27,8 @@ https://github.com/deliaswe/Professional-Readme-Generator/assets/113808453/19672
 https://www.npmjs.com/package/inquirer#installation
 
 ## License
-MIT License
+[![License: MIT](https://img.sheilds.io/badge/License-MIT-yellow.svg)]
+(https://opensource.org/license/MIT)
 
 ## Contribution
 Delia Young
