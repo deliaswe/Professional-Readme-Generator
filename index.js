@@ -56,11 +56,22 @@ inquirer
 ]);
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+        err ? console.log(err) : console.log('Sucessfully created markdown file!')
+    );
+}
 
 // TODO: Create a function to initialize app
 function init() {
-    //console.log("welcome to readme generator")
+    inquirer
+    .prompt(questions) 
+    .then(data => {
+        console.log(data);
+        const markdownContent = generateMarkdown(data);
+        console.log(markdownContent)
+        writeToFile('./generatedReadme/READMW.md', markdownContent);
+    })
 }
 
 // Function call to initialize app
